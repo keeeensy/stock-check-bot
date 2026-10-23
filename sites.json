@@ -1,0 +1,29 @@
+[
+  {
+    "name": "ЛИТКОМ",
+    "enabled": true,
+    "search_url": "https://lit-kom.ru/?dispatch=products.search&subcats=Y&search_performed=Y&q={query}",
+    "card": ".ty-grid-list__item",
+    "title": "a.product-title",
+    "in_stock": ["В корзину", "В наличии"],
+    "out_of_stock": ["Ожидается", "Нет в наличии", "Под заказ"]
+  },
+  {
+    "name": "Шулепов",
+    "enabled": true,
+    "search_url": "https://www.shulepov.ru/catalog/?q={query}",
+    "card": ".bxr-element-container",
+    "title": "a[href]",
+    "in_stock": ["В наличии"],
+    "out_of_stock": ["Скоро появится", "Нет в наличии", "Под заказ"]
+  },
+  {
+    "name": "КПД 88",
+    "enabled": true,
+    "search_url": "https://kpd88.ru/search/?query={query}",
+    "card": ".product-thumb",
+    "title": "a.product-thumb__name",
+    "in_stock": ["В наличии"],
+    "out_of_stock": ["Нет в наличии", "Под заказ", "Предзаказ", "Ожидается"]
+  }
+]
